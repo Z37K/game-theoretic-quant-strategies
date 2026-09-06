@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets / env
+.env
+*.key
+*.pem
+
+# Large / regenerable price data (the backtests read from here)
+crypto-data/
+backtest-data/
+**/crypto-data/
+
+# Live run logs
+*_equity_log*.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep the anonymised leaderboard extracts in scoreboard-analysis/ - the
+# analysis scripts need them.
